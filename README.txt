@@ -39,6 +39,5 @@ The dataset is composed of four CSV files: `links.csv`, `movies.csv`, `ratings.c
 
 ### Cross-Validation
 - Cross-fold computation is not bundled with the dataset.
-- Refer to modern toolkits or LensKit for guidance and tools for cross-folding approaches.
 
 
