@@ -41,24 +41,4 @@ The dataset is composed of four CSV files: `links.csv`, `movies.csv`, `ratings.c
 - Cross-fold computation is not bundled with the dataset.
 - Refer to modern toolkits or LensKit for guidance and tools for cross-folding approaches.
 
-## Objectives
-### Main Objective
-Discuss the development of a system that provides personalized movie recommendations.
-
-### Specific Objectives
-1. Determine the most effective method for recommending movies to users and improving their satisfaction.
-2. Implement strategies to encourage users to share their movie preferences.
-3. Strike a balance between using user preferences and movie attributes to generate the best recommendations.
-4. Identify the features and aspects crucial for building an effective recommendation model.
-5. Optimize the recommendation system to provide the most relevant and personalized movie suggestions.
-
-
-## Findings
-1. **Total Count of Movie Ratings:**
-   - Only a few movies have ratings below average (2.5), suggesting that the movies are well-received.
-
-2. **Frequency of Movies Released per Year:**
-   - Advancements in technology have contributed to a notable increase in movie production, particularly in the mid-1990s.
-
-  
 
