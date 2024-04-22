@@ -116,7 +116,3 @@ Recommendations are provided for new users based on the popularity of movies.
 ## Content-Based Recommendations
 
 Recommendations are made based on movie genres.
-
-
-
-
