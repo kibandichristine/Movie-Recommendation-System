@@ -5,7 +5,7 @@
 
 ## 🌐 Live Demo  
 🚀 **Experience the Movie Recommender App here:**  
-👉 [**MovieLens Puppet Theater — Streamlit App**](https://kibandichristine-movie-recommendation-system-app-ypjjj1.streamlit.app/)
+👉 [**MovieLens Puppet Theater — Streamlit App**](https://puppet-movie-recommendation-system.streamlit.app/)
 
 ---
 
