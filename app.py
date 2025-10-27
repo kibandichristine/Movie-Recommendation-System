@@ -5,7 +5,22 @@ from scipy.sparse import csr_matrix
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import mean_squared_error
 from sklearn.decomposition import TruncatedSVD
+import pandas as pd
+import numpy as np
+import joblib
 
+# Load saved artifacts
+# Note: For large matrices, loading directly into Streamlit's cache is ideal.
+@st.cache_data
+def load_assets():
+    movie_matrix = pd.read_pickle('movie_matrix.pkl')
+    user_similarity = np.load('user_similarity.npy')
+    item_similarity = np.load('item_similarity.npy')
+    svd_model = joblib.load('svd_model.joblib')
+    return movie_matrix, user_similarity, item_similarity, svd_model
+
+# ... then call the function in your Streamlit app:
+# movie_matrix, user_similarity, item_similarity, svd_model = load_assets()
 # --- Streamlit Page Configuration ---
 st.set_page_config(
     page_title="MovieLens Puppet Theater Recommender",
