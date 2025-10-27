@@ -1,13 +1,11 @@
 # 🎭 MovieLens Puppet Theater Recommender  
 **Improving user experience through the development of an advanced movie recommendation system.**
 
-
-
 ---
 
 ## 🌐 Live Demo  
 🚀 **Experience the Movie Recommender App here:**  
-👉 [**MovieLens Puppet Theater — Streamlit App**](https://kibandichristine-movie-recommendation-system-app-pbwohz.streamlit.app/?embed_options=show_toolbar,show_colored_line,show_padding,show_footer,dark_theme)
+👉 [**MovieLens Puppet Theater — Streamlit App**](https://kibandichristine-movie-recommendation-system-app-ypjjj1.streamlit.app/)
 
 ---
 
